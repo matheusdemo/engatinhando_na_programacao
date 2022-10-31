@@ -1,0 +1,39 @@
+#site{
+    width: 1280px;
+    height: 700px;
+    margin-top: 0;
+    margin-left: auto;/* auto pos se diminuir ou aumentar ja responde automaticamente*/
+    margin-right: auto;
+    margin-bottom: 0; /*parte de baixo em programação ou chao e sempre bottom*/
+    background-color: darksalmon;
+}
+#header{
+    width: 1280px;
+    height: 100px;
+    background-color: #00f;
+    color: white;
+    text-align: center;
+}
+#conteudo{
+    width: 1280px;
+    height: 500px;
+    background-color: #0f0;
+    color: white;
+}
+#footer{
+    width: 1280px;
+    height: 100px;
+    background-color:  #c3c;
+}
+#conteudo-left{
+    width: 640px;
+    height: 300px;
+    float: left;
+    background-color: #ff0;
+}
+#conteudo-right{
+    width: 640px;
+    height: 400px;
+    float: left;
+    background-color: #f00;
+}
