@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"><!--conjunto de caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--X-UA-Compatible" content="IE=edge": compatibilidade com navegadores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--ajuste de escala para o tamanho da tela-->
+    <title>Document</title>
+    <style>
+        body{
+
+            background-color: black;
+
+        }
+       .nomedaclase{
+        color:whitesmoke;
+        font-size: 20px;
+        background-color: black;  /* usar hexdesimal ou RGB para cores mais precisas. */
+        text-align: center; /* comentarios em CSS sao assim. */
+       }
+       .nomedaclase2{
+        color:whitesmoke;
+        font-size: 20px;
+        background-color: black;  /* usar hexdesimal ou RGB para cores mais precisas. */
+        text-align: left; /* comentarios em CSS sao assim. */
+       }
+       .contato{
+        color:whitesmoke;
+        width: 500px;/*largura do elemento*/
+        background-color: (219, 93, 219);/*cor de fundo do elemento*/
+        border-color: gray;/*cor da borda da caixa*/
+        border-radius: 8px; /* border-radius: px serve para definir a quantidade de picels para curvatura da borda*/
+        }
+        .botao{
+        background-color: blue;
+        color:  aliceblue;
+        border-radius: 8px;
+        border-color: aqua;
+        width: 75px;
+        height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nomedaclase">
+        <h1>Ford Mustang Dark Horse (2024)</h1>
+        <img src="img/Ford-Mustang_Dark_Horse-2024-1280-02.jpg" height="480xp" width="640xp" alt="Imagem não carregou">
+    </div>
+        <div class="nomedaclase2">
+            <p>
+                With sinister looks and a specially modified 5.0-liter V8 - the most powerful 5.0-liter V8 ever, projecting 500 horsepower - Ford Mustang Dark Horse expands the</br>
+                lineup and sets a new benchmark for American street and track performance that could only come in a Mustang.</br>
+                A special team of Ford engineers, designers and experts worked for more than three years to create Mustang Dark Horse, a street and track-capable</br>
+                performance Mustang with striking visual cues and all the capability sports car lovers expect, right down to the available carbon fiber wheels from Carbon</br>
+                Revolution (late availability). Mustang Dark Horse is the first new performance name for the brand since Mustang Bullitt was introduced in 2001.</br>
+            <p>
+                 "   For decades, Mustang has competed against the most premium brands on the greatest world stages and won," said Jim Farley, CEO of Ford Motor Company.</br>
+                    "We surprised everyone, and we're going to surprise them again with a track-capable Mustang that puts a new level of performance, styling and American</br>
+                 engineering in the hands of everyday customers who still want the thrill and excitement of a V8 sports car."</br>
+             </p>
+        </div>
+
+            <form action="/formulario-contatato" method="post">
+                <div>
+                    <label style="color: whitesmoke;" for="nome">Nome</label>
+                    <input class="contato" type="text" id="nome">
+                </div>
+            </br>
+                <div>
+                    <label style="color: whitesmoke;" for="email">Email</label>
+                    <input class="contato" type="email" id="email">
+                </div>
+            </br>
+                
+                <button class="botao">Enviar</button>
+            </br>
+            </form>
+</body>
+</html>
